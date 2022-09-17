@@ -1,0 +1,19 @@
+.nav {
+  background-color: #333;
+  &-list {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+  }
+  &-item {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px 60px 10px 0;
+  }
+  &-link {
+    color: #fff;
+  }
+  @media screen and (max-width: 767px) {
+    overflow-x: scroll;
+  }
+}

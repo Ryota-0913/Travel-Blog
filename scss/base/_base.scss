@@ -1,0 +1,48 @@
+*
+**
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Montserrat",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  transition: .3s;
+  &:hover {
+    opacity: .7;
+    transform: .5s;
+  }
+}
+
+img svg{
+  vertical-align: bottom;
+  width: 100%;
+}
+
+input, textarea {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}

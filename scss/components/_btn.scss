@@ -1,0 +1,27 @@
+.readmore {
+  text-align: center;
+  &-link {
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 1px;
+    position: relative;
+    &::after {
+      background-color: #333;
+      bottom: 0;
+      content: "";
+      height: 1px;
+      left: 0;
+      position: absolute;
+      transition: all 200ms ease;
+      width: 100%;
+    }
+    &:hover {
+      &::after {
+        opacity: 0;
+        transform: translateY(3px);
+      }
+    }
+  }
+}

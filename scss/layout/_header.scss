@@ -1,0 +1,18 @@
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  &-title {
+    line-height: 1px;
+    padding: 20px 16px;
+  }
+  &-link {
+    display: inline-block;
+  }
+  @media screen and (max-width: 767px) {
+    &-title {
+      padding: 20px 16px;
+    }
+  }
+}

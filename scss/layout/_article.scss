@@ -1,0 +1,39 @@
+.article {
+  &-box {
+    margin-bottom: 80px;
+  }
+  &-title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    margin: 10px 0 15px;
+  }
+  &-link {
+    color: #333;
+    display: block;
+  }
+  &-meta {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  &-date {
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 20px;
+  }
+  &-category {
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &-img {
+    width: 100%;
+    display: block;
+  }
+  &-text {
+    padding: 10px 40px 30px 40px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
